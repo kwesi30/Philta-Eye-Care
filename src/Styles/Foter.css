@@ -1,0 +1,223 @@
+.footer-content{
+    height:400px ;
+    background: linear-gradient(180deg, rgba(101, 101, 217, 0.62) 0%, #6565D9 100%);
+    
+    
+}
+
+.Layout{
+    display: flex;
+    height:400px ;
+    justify-content: space-between;
+}
+
+.foter-logo{
+    flex-basis: 23%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+}
+
+.Our-Services{
+    flex-basis: 23%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    color: white;
+}
+
+.Vision-care{
+    flex-basis: 23%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    color: white;
+}
+
+.Contact{
+    flex-basis: 23%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    color: white;
+}
+
+.foter-logo img{
+background-color: white;
+border-radius: 25px;
+width: 200px;
+margin-top: 5% ;
+margin-left: 13%;
+
+}
+
+.socil-icons img{
+    width: 29px;
+    background: rgb(7, 46, 164);
+    margin-top: 9%;
+}
+.Contact input{
+    width: 70%;
+    height: 40px;
+    border-radius: 17px;
+    margin-top: 5%;
+    font-weight: bold;
+}
+
+.Subscribe-btn{
+    width: 70%;
+    height: 40px;
+    border-radius: 17px;
+    margin-top: 5%;
+    font-weight: bold;
+    color: white;
+    background-color:rgba(3, 32, 112, 1);}
+
+
+
+    
+
+
+
+@media (max-width:600px){
+
+    .footer-content{
+        height:400px ;
+        background: linear-gradient(180deg, rgba(101, 101, 217, 0.62) 0%, #6565D9 100%);
+        
+        
+    }
+
+
+
+    .Layout{
+        display: flex;
+        flex-direction: row;
+        height:400px ;
+        width:100% ;
+        justify-content: space-between;
+    
+        border: 2px solid blue;
+    }
+    
+    .foter-logo{
+        display: flex;
+        flex-basis:15% ;
+        margin-top: 3%;
+        
+    }
+    
+    .Our-Services{
+       
+        display: flex;
+        flex-basis:15% ;
+        margin-top: 3%;
+        color: white;
+        
+    }
+    
+    .Vision-care{
+       
+        
+        display: flex;
+        flex-basis:15% ;
+        margin-top: 3%;
+        color: white;
+       
+    }
+    
+    .Contact{
+    
+        display: flex;
+        flex-basis:15%;
+        margin-top: 3%;
+        color: white;
+        
+    }
+    
+    .foter-logo img{
+    background-color: white;
+    border-radius: 5px;
+    width: 60px;
+    margin-top: 5% ;
+    margin-left: 13%;
+   
+    
+    }
+
+    .socil-icons img{
+        display: none;
+    }
+
+    .Our-Services h1{
+        font-size: small;
+        font-weight: bolder;
+    }
+    .Our-Services p{
+        font-size: smaller;
+    }
+
+    
+    .Vision-care h1{
+        font-size: small;
+        font-weight: bolder;
+    }
+    .Vision-care p{
+        font-size: smaller;
+    }
+
+
+    .Contact h1{
+        font-size: small;
+        font-weight: bolder;
+    }
+    .Contact p{
+        font-size: smaller;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+

@@ -1,0 +1,387 @@
+.Shop-Container{
+    display: flex;
+    width:100%;
+    height: 2900px;
+    flex-direction: column;
+}
+
+
+.shop-top{
+    width:100% ;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.shoptop-left{
+    flex-basis:20%;
+}
+
+.shoptop-left img{
+    width: 263px;
+    height: 100%;
+   
+}
+
+.shoptop-middle{
+    flex-basis:54%;
+    }
+
+    .shoptop-middle img{
+        width: 750px;
+        height: 100%;
+    }
+   
+    .shoptop-right{
+        flex-basis:20%;
+    }
+
+    .shoptop-right img{
+        width: 270px;
+        height:100%;
+    }
+    
+
+.Slogan{
+    width: 26%;
+    height: 300px;
+    margin: -48%;
+    margin-left: 69%;
+    padding: 2%;
+    background-color: white;
+}
+
+.Slogan h3{
+   margin-bottom:-9% ;
+}
+
+
+
+.SpecUp button {
+    width: 90%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(3, 32, 112, 1);
+}
+
+.SpecUp p{
+    color: white;
+    font-weight: bold;
+}
+
+
+.logos-container{
+   
+    height:65px ;
+    margin-top: 6%;
+    display: flex;
+    width:100% ;
+    justify-content: space-between;
+   
+}
+
+
+.logo1{
+    display: flex;
+    margin-left: 7%;
+    
+    
+    
+}
+
+
+.icon{
+    font-size: 200%;
+    margin-left: 2%;
+    color: rgba(58, 58, 58, 1);
+}
+
+.lg-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+   
+}
+
+
+.High{
+    margin-bottom: 3%;
+    color: rgba(58, 58, 58, 1);
+    font-size: x-small;
+    margin-left: 3%;
+    width: 103%;
+   
+}
+
+.durable{
+    color: rgb(0, 0, 0);
+    font-size: xx-small;
+    margin-left: 3%;
+    width: 103%;
+}
+
+.logo-cont1{
+    display: flex;
+    flex-basis: 50%;
+}
+
+.logo-cont2{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-evenly;
+  
+}
+
+.Products-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    color: rgba(58, 58, 58, 1);
+    
+}
+
+.Productimg-cont{
+    width:100% ;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.product1{
+    display: flex;
+    flex-basis: 23%;
+    flex-direction: column;
+}
+
+.lens-nme{
+    margin-top: 5%;
+    color: rgba(58, 58, 58, 1);
+}
+
+.stock{
+    margin-top: 5%;
+    color: rgba(103, 188, 106, 1)
+}
+
+.prix{ 
+    margin-top: 5%;
+    color: rgba(58, 58, 58, 1);
+}
+.product2{
+    display: flex;
+    flex-basis: 23%;
+    flex-direction: column;
+    margin-left: 3%;
+}
+.product3{
+    display: flex;
+    flex-basis: 23%;
+    flex-direction: column;
+    margin-right: 3%;
+}
+
+.product3 p{
+    color: red;
+}
+
+
+.product4{
+    display: flex;
+    flex-basis: 23%;
+    flex-direction: column;
+}
+
+.product4 p{
+    color: red;
+}
+.Productimg-cont2{
+    width:100% ;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7%;
+
+}
+
+.pro-pro2{
+    display: flex;
+   
+}
+
+.pro2-pro3{
+    display: flex;
+   
+}
+
+.product-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    height: 35px;
+    
+}
+
+.product-btn button{
+    width: 12%;
+    color: rgba(3, 32, 112, 1);
+    font-weight: bold;
+}
+
+
+
+.phone1{
+    flex-basis:  19%;;
+    padding: 3%;
+   
+}
+.phone1 img{
+  width:220px;
+}
+
+
+
+    .phone2{
+   
+    flex-basis:19%;
+}
+
+
+.phone2 img{
+    width:  290px;
+    
+    }
+
+
+.phone3 img{
+    width: 350px;
+    height: 420px;
+    margin-top: 13%;
+    margin-bottom: 7%;
+    }
+
+
+.phone3{
+   
+    flex-basis: 28%;
+}
+
+
+
+
+
+@media(max-width:600px){
+
+
+    
+    
+.shop-top{
+    width:100% ;
+    height: 350px;
+    
+}
+
+.Slogan{
+    width: 39%;
+    height: 150px;
+    margin: -65%;
+    margin-left: 57%;
+    font-size: x-small;
+    background-color: white;
+}
+
+.SpecUp button{
+    display: none;
+}
+
+.shoptop-middle img{
+    width: 280px;
+    height: 100%;
+}
+
+.shoptop-left img{
+    width: 90px;
+    height: 100%;
+   
+}
+
+.shoptop-right img{
+    width: 90px;
+    height:100%;
+}
+
+.logos-container{
+   
+    height:65px ;
+    margin-top: 9%;
+    display: flex;
+    flex-direction: column;
+    width:100% ;
+    justify-content: space-between;
+   
+}
+
+.logo-cont2{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-between;
+    margin-top: 6%;
+  
+}
+
+.Products-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 25%;
+    color: rgba(58, 58, 58, 1);
+    font-size: large;
+   }
+
+   .Productimg-cont{
+    display: flex;
+    flex-direction: column;
+    margin-top: 35%;
+   }
+
+   .Productimg-cont2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 65%;
+   }
+
+   .pro-pro2 img{
+      width: 220px;
+   }
+
+   .pro2-pro3 img{
+    width: 220px;
+   }
+
+   .lens-nme{
+   font-size: small;
+}
+
+.stock{
+    font-size: small;
+}
+
+.prix{
+    font-size: small;
+}
+
+.product-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 30%;
+    height: 40px;
+    
+}
+
+.product-btn button{
+    width: 20%;
+    color: rgba(3, 32, 112, 1);
+    font-weight: bold;
+}
+
+
+}

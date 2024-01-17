@@ -1,0 +1,555 @@
+.Blog{
+   height: 1200px; 
+   display: flex;
+   flex-direction: row;
+   margin-top: 5%;
+   
+}
+
+.Header{
+    display: flex;
+    color: rgba(3, 32, 112, 1);
+    font-size: xx-large;
+    margin-top: 5%;
+    margin-left: 9%;
+}
+
+.Left-section{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 9%;
+}
+
+
+.Blog-img{
+    height:560px;
+}
+
+.Author{
+    margin-left: 5%;
+    color: rgba(3, 32, 112, 1);
+    font-weight: bolder;
+    font-size: x-small;
+}
+
+.Title{
+    color: rgba(17, 18, 16, 1);
+    font-weight: bolder;
+    font-size: x-large;
+    
+}
+
+.Right-Section{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+}
+
+.Blog-search{
+    height: 50px;
+    width: 99%;
+    border-radius: 8px;
+    
+}
+
+
+ .font-icon{
+    margin-left: -40px;
+   
+}
+
+.P-Post{
+    text-align: center;
+    margin-top: 7%;
+}
+.Popularpost-Box1{
+    height: 100px;
+    display: flex;
+    margin-top: 8%;
+
+}
+
+
+
+
+
+.PP-Title{
+    color: rgba(155, 155, 155, 1);
+    
+    
+}
+
+
+.PP-image img{
+    width: 110px;
+    height:99px ;
+}
+
+.PP-text{ 
+   color: rgba(3, 32, 112, 1) ;
+   font-size: smaller;
+}
+
+
+
+.Recent-Post{
+    margin-top: 25%;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.RP-Blog{
+   color:rgba(155, 155, 155, 1) ;
+   margin-top: 5%;
+}
+
+.RP-text{
+    font-size: smaller;
+}
+
+.Subscribe{
+    margin-top: 10%;
+    text-align: center;
+}
+
+.Subscribe-box{
+    display: flex;
+    flex-direction: row;
+    margin-top:5% ;
+}
+
+.Subscribe-box input{
+width: 70%;
+height: 40px;
+border-radius: 17px;
+}
+
+.Subscription-btn{
+    background-color: rgba(3, 32, 112, 1);
+    color: white;
+    width: 25%;
+    border-radius: 20px;
+    font-size: x-small;
+    text-align: center;
+    padding-top: 3%;
+    margin-left: -9%;
+}
+
+.Social-Media{
+    display: flex;
+    justify-content: center;
+    margin-top: 19%;
+}
+
+.SM-icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+
+
+@media(max-width:600px){
+
+
+
+
+    .Blog{
+        height: 1000px; 
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    
+        margin-top: 5%;
+        
+     }
+
+     .Header{
+        display: flex;
+        color: rgba(3, 32, 112, 1);
+        font-size: large;
+        margin-top: 5%;
+        margin-left: 30%;
+       
+    }
+
+    .Left-section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0%;
+    }
+  
+
+    .Right-Section{
+        
+        display: none;
+        
+    }
+
+    .Blog-search{
+        display: none;
+        
+    }
+
+    .font-icon{
+        display: none;
+       
+    }
+     
+    .P-Post{
+        display: none;
+    }
+    .Popularpost-Box1{
+        
+        display: none;
+    }
+
+    .PP-Title{
+       display: none;
+        
+        
+    }
+    
+    
+    .PP-image img{
+         display: none;
+    }
+    
+    .PP-text{ 
+       display: none;
+    }
+    
+    
+    
+    .Recent-Post{
+        display: none;
+    }
+    
+    .RP-Blog{
+        display: none;
+    }
+    
+    .RP-text{
+        display: none;
+    }
+    
+    .Subscribe{
+        display: none;
+    }
+    
+    .Subscribe-box{
+        display: none;
+    }
+    
+    .Subscribe-box input{
+        display: none;
+    }
+    
+    .Subscription-btn{
+        display: none;
+    }
+    
+    .Social-Media{
+        display: none;
+    }
+    
+    .SM-icons{
+        display: none;
+    }
+
+
+    .Blog-img img{
+       width: 100%;
+       height: 560px;
+    }
+
+
+    .Author{
+        margin-left: 0%;
+        color: rgba(3, 32, 112, 1);
+        font-weight: bolder;
+        font-size: x-small;
+    }
+    
+    .Title{
+        color: rgba(17, 18, 16, 1);
+        font-weight: bolder;
+        font-size: 90%;
+        
+    }
+
+    .content{
+        font-size: x-small;
+        
+    }
+}
+
+@media(max-width:820px){
+    .Blog{
+        height: 1000px; 
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    
+        margin-top: 5%;
+        
+     }
+
+     .Header{
+        display: flex;
+        color: rgba(3, 32, 112, 1);
+        font-size: large;
+        margin-top: 5%;
+        margin-left: 30%;
+       
+    }
+
+    .Left-section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0%;
+    }
+  
+
+    .Right-Section{
+        
+        display: none;
+        
+    }
+
+    .Blog-search{
+        display: none;
+        
+    }
+
+    .font-icon{
+        display: none;
+       
+    }
+     
+    .P-Post{
+        display: none;
+    }
+    .Popularpost-Box1{
+        
+        display: none;
+    }
+
+    .PP-Title{
+       display: none;
+        
+        
+    }
+    
+    
+    .PP-image img{
+         display: none;
+    }
+    
+    .PP-text{ 
+       display: none;
+    }
+    
+    
+    
+    .Recent-Post{
+        display: none;
+    }
+    
+    .RP-Blog{
+        display: none;
+    }
+    
+    .RP-text{
+        display: none;
+    }
+    
+    .Subscribe{
+        display: none;
+    }
+    
+    .Subscribe-box{
+        display: none;
+    }
+    
+    .Subscribe-box input{
+        display: none;
+    }
+    
+    .Subscription-btn{
+        display: none;
+    }
+    
+    .Social-Media{
+        display: none;
+    }
+    
+    .SM-icons{
+        display: none;
+    }
+
+
+    .Blog-img img{
+       width: 100%;
+       height: 560px;
+    }
+
+
+    .Author{
+        margin-left: 0%;
+        color: rgba(3, 32, 112, 1);
+        font-weight: bolder;
+        font-size: x-small;
+    }
+    
+    .Title{
+        color: rgba(17, 18, 16, 1);
+        font-weight: bolder;
+        font-size: 90%;
+        
+    }
+
+    .content{
+        font-size: x-small;
+        
+    }
+}
+
+
+@media(max-width:1060px){
+    .Blog{
+        height: 1000px; 
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    
+        margin-top: 5%;
+        
+     }
+
+     .Header{
+        display: flex;
+        color: rgba(3, 32, 112, 1);
+        font-size: large;
+        margin-top: 5%;
+        margin-left: 30%;
+       
+    }
+
+    .Left-section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0%;
+    }
+  
+
+    .Right-Section{
+        
+        display: none;
+        
+    }
+
+    .Blog-search{
+        display: none;
+        
+    }
+
+    .font-icon{
+        display: none;
+       
+    }
+     
+    .P-Post{
+        display: none;
+    }
+    .Popularpost-Box1{
+        
+        display: none;
+    }
+
+    .PP-Title{
+       display: none;
+        
+        
+    }
+    
+    
+    .PP-image img{
+         display: none;
+    }
+    
+    .PP-text{ 
+       display: none;
+    }
+    
+    
+    
+    .Recent-Post{
+        display: none;
+    }
+    
+    .RP-Blog{
+        display: none;
+    }
+    
+    .RP-text{
+        display: none;
+    }
+    
+    .Subscribe{
+        display: none;
+    }
+    
+    .Subscribe-box{
+        display: none;
+    }
+    
+    .Subscribe-box input{
+        display: none;
+    }
+    
+    .Subscription-btn{
+        display: none;
+    }
+    
+    .Social-Media{
+        display: none;
+    }
+    
+    .SM-icons{
+        display: none;
+    }
+
+
+    .Blog-img img{
+       width: 100%;
+       height: 560px;
+    }
+
+
+    .Author{
+        margin-left: 0%;
+        color: rgba(3, 32, 112, 1);
+        font-weight: bolder;
+        font-size: x-small;
+    }
+    
+    .Title{
+        color: rgba(17, 18, 16, 1);
+        font-weight: bolder;
+        font-size: 90%;
+        
+    }
+
+    .content{
+        font-size: x-small;
+        
+    }
+}
+
+

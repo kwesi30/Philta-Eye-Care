@@ -1,0 +1,192 @@
+.Myaccount{
+    display: flex;
+    flex-direction: column;
+    max-width:100% ;
+    height: 1700px;
+    
+}
+
+
+
+
+.h2-make-payment{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    font-size: xx-large;
+    color: rgba(3, 32, 112, 1);
+}
+
+
+.myaccount-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    }
+
+    .h3-price{
+        display: flex;
+        justify-content: center;
+        margin-top: 3%;
+        font-size: x-large;
+        color: rgba(3, 32, 112, 1);
+    }
+
+    .nme{
+        margin-left: 15%;
+        margin-top: 5%;
+        color: rgba(3, 32, 112, 1);
+        font-weight: bold;
+    }
+
+    .M-number{
+        margin-left: 15%;
+        color: rgba(3, 32, 112, 1);
+        font-weight: bold;
+
+    }
+
+    .Momo-Op{
+        margin-left: 15%;
+        color: rgba(3, 32, 112, 1);
+        font-weight: bold;
+    
+    }
+
+    .Momo-btn{
+        display: flex;
+        justify-content: center;
+        margin-top: 3%;
+        width: 99%;
+    }
+
+    .Momo-btn button{
+      width: 99%;
+      margin-bottom: 3%;
+      height: 60px;
+      background-color: rgba(3, 32, 112, 1); 
+      color: white;
+      font-size: small;
+      border-radius: 9px;
+    }
+
+
+    @media (max-width: 600px){
+
+        .Myaccount{
+            display: flex;
+            flex-direction: column;
+            max-width:100% ;
+            overflow: hidden;
+            height: 1350px;
+           
+        }
+
+
+
+        .h2-make-payment{
+            
+            display: flex;
+            justify-content: center;
+            margin-top: 3%;
+            font-size: large;
+            width: 100%;
+            color: rgba(3, 32, 112, 1);
+        }
+        
+        
+        .myaccount-img{
+            border: 2px solid blue;
+            display: flex;
+            justify-content: center;
+            margin-top: 3%;
+            }
+
+            .myaccount-img{
+                width:90% ;
+            }
+        
+            .h3-price{
+                display: flex;
+                justify-content: center;
+                margin-top: 3%;
+                font-size: x-large;
+                color: rgba(3, 32, 112, 1);
+            }
+        
+            .nme{
+                margin-left: 0%;
+                margin-top: 5%;
+                color: rgba(3, 32, 112, 1);
+                font-weight: bold;
+            }
+        
+            .M-number{
+                margin-left: 0%;
+                color: rgba(3, 32, 112, 1);
+                font-weight: bold;
+        
+            }
+        
+            .Momo-Op{
+                margin-left: 0%;
+                color: rgba(3, 32, 112, 1);
+                font-weight: bold;
+            
+            }
+        
+            .Momo-btn{
+                display: flex;
+                justify-content: center;
+                margin-top: 3%;
+            }
+        
+            .Momo-btn button{
+              width: 40%;
+              margin-bottom: 3%;
+              height: 50px;
+              background-color: rgba(3, 32, 112, 1); 
+              color: white;
+              font-size: larger;
+              border-radius: 9px;
+            }
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }

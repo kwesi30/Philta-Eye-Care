@@ -1,0 +1,44 @@
+.Sucess{
+    background-color: white;
+    width:100% ;
+    height: 990px;
+    display: flex;
+   flex-direction: column;
+}
+
+.Sucess-img{
+    width:60% ;
+    height: 390px;
+    margin-left: 20%;
+    margin-top: 20%;
+}
+
+.Sucess-img img{
+    margin-left: 29%;
+}
+
+.Sucess-text{
+    height: 60px;
+    text-align: center;
+    color:rgba(61, 174, 43, 1) ;
+    
+    
+}
+.success-button{
+    height: 60px;
+    width: 25%;
+    margin-left: 37%;
+    margin-top: 3%;
+    font-size: larger;
+    color: white;
+   font-weight: bolder;
+   background-color:rgba(3, 32, 112, 1);
+
+}
+
+@media(max-width:600px){
+    .Sucess-img img{
+        margin-left: 8%;
+    }
+    
+}

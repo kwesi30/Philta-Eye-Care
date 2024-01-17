@@ -1,0 +1,232 @@
+.Navigation{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: rgba(255, 255, 255, 0.68);
+   box-shadow:0 4px 8px 0  rgba(0, 0, 0, 0.25);
+   margin: 3px;
+   
+   
+}
+
+.logo img{
+   width: 70px;
+}
+
+
+.search{
+   border-radius: 19px;
+   text-align: left;
+   padding-left: 2%;
+   font-weight: bolder;
+   height: 35px;
+   width: 15%;
+   margin-right:-5%;
+   box-shadow:0 4px 8px 0  rgba(0, 0, 0, 0.25);
+   
+}
+
+.Font-icon{
+   margin-right:17%;
+}
+
+ .Navigation ul{
+    display: flex;
+    
+ }
+
+ 
+ .Navigation ul li{
+    list-style: none;
+    font-weight: bold;
+ }
+
+ .Navigation ul  a{
+    display: block;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+    padding: 2px;
+    margin: 5px;
+ }
+
+ .Navigation a:hover{
+    color: rgb(41, 41, 148);
+}
+
+.menu{
+   display:none;
+   position: absolute;
+   top: 0.75rem;
+   right: 0.5rem;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 2rem;
+   height: 1.5rem;
+}
+
+.menu span{
+   height: 0.4rem;
+   width:100% ;
+   background-color: rgba(151, 151, 151, 1);
+   border-radius: 0.2rem;
+}
+
+.Login{
+   border: 1px solid blue;
+   background: rgba(3, 32, 112, 1);
+  
+}
+.signup li{
+   color: white;
+}
+
+
+@media(max-width:600px) {
+
+.menu{
+   display: flex;
+  
+}
+
+.Navigation{
+   flex-direction: column;
+   align-items: start;
+}
+
+
+.Navigation ul{
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 0.25rem;
+}
+
+
+.Navigation ul li{
+   width:100%;
+   text-align: center;
+}
+
+.Navigation ul.open{
+   display: flex;
+}
+
+.search{
+   display: none;
+   
+   
+}
+.Login{
+   
+  border: 1px solid blue;
+   background: rgba(3, 32, 112, 1);
+  
+  
+}
+.signup li{
+   color: white;
+
+}
+
+}
+
+@media(max-width:820px) {
+
+   .menu{
+      display: flex;
+     
+   }
+   
+   .Navigation{
+      flex-direction: column;
+      align-items: start;
+   }
+   
+   
+   .Navigation ul{
+     display: none;
+     flex-direction: column;
+     width: 100%;
+     margin-bottom: 0.25rem;
+   }
+   
+   
+   .Navigation ul li{
+      width:100%;
+      text-align: center;
+   }
+   
+   .Navigation ul.open{
+      display: flex;
+   }
+   
+   .search{
+      display: none;
+      
+      
+   }
+   .Login{
+      
+     border: 1px solid blue;
+      background: rgba(3, 32, 112, 1);
+     
+     
+   }
+   .signup li{
+      color: white;
+   
+   }
+   
+   }
+
+
+   @media(max-width:1205px) {
+
+      .menu{
+         display: flex;
+        
+      }
+      
+      .Navigation{
+         flex-direction: column;
+         align-items: start;
+      }
+      
+      
+      .Navigation ul{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 0.25rem;
+      }
+      
+      
+      .Navigation ul li{
+         width:100%;
+         text-align: center;
+      }
+      
+      .Navigation ul.open{
+         display: flex;
+      }
+      
+      .search{
+         display: none;
+         
+         
+      }
+      .Login{
+         
+        border: 1px solid blue;
+         background: rgba(3, 32, 112, 1);
+        
+        
+      }
+      .signup li{
+         color: white;
+      
+      }
+      
+      }
+      
+   
